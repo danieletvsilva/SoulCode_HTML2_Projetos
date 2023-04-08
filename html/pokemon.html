@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro Pokemon</title>
+    <script>
+      function msg() {
+        alert("Pokemon cadastrado com sucesso!");
+      }
+    </script>
+  </head>
+  <body>
+    <img
+      class="back-pikachu"
+      src="https://www.portallos.com.br/wp-content/uploads/2010/03/pokemons-wallpaper.jpg"
+      alt="Pikachu"
+    />
+    <div class="cad-pok">
+      <form action="">
+        <h1 class="h1-pok">CADASTRE SEU NOVO POKEMON</h1>
+        <div class="pok">
+          <label for="nome">Nome do Pokemon</label>
+          <input type="text" name="nome" id="nome" placeholder="Nome" />
+        </div>
+        <br /><br />
+        <div class="pok">
+          <label for="data">Data de Captura</label>
+          <input type="date" name="data" id="data" />
+        </div>
+        <br /><br />
+
+        <div class="pok">
+          <label for="numero">Usou quantas pokebolas?</label>
+          <input type="number" />
+        </div>
+        <br /><br />
+        <div class="pok">
+          <label for="tipo">Tipo de Pokemon</label>
+          <select name="tipo" id="tipo">
+            <option value=""></option>
+            <option value="Normal">Normal</option>
+            <option value="Fogo">Fogo</option>
+            <option value="Água">Água</option>
+            <option value="Ar">Ar</option>
+            <option value="Planta">Planta</option>
+            <option value="Elétrico">Elétrico</option>
+            <option value="Gelo">Gelo</option>
+          </select>
+        </div>
+        <br /><br />
+        <div class="pok">
+          <label for="info">Alguma informação à acrescentar?</label><br />
+          <textarea name="info" id="info" placeholder="Digite aqui"></textarea>
+        </div>
+        <br /><br />
+        <div class="but">
+          <label for="submit"></label>
+          <input type="submit" value="Cadastrar" onclick="msg()" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

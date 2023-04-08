@@ -1,0 +1,306 @@
+/*PÁGINA DE LOGIN E CADASTRO*/
+body{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+ 
+.title{    
+    font-size: x-large;
+    text-align: center;
+    color: #fff;
+    padding: 17px;
+            
+}
+.login-box {  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+    padding: 75px;
+    transform: translate(-50%, -50%);
+    background: rgba(11, 11, 11, 0.987);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 300px;
+    background-image: url('../img/058cc1913cf7d2bd93d6153ad22205f5.png');  
+    background-repeat: no-repeat;  
+    background-position: center;
+    background-size: 50rem ;
+    
+  }
+  
+  .login-box .user-box {
+    position: relative;
+    padding-right: 72%;
+
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    margin: 30px 0;
+    position: relative;
+    font-size: 16px;
+    color: #0c0c0c;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid transparent;
+    outline: none;
+    background: transparent;
+  }
+
+  input::placeholder{
+    color:rgb(9, 9, 9);
+  }
+   
+  .login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px 0;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0c0c0c;
+    pointer-events: none;
+    transition: .5s;
+    
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: 20px;
+    left: 0;
+    color: #0c0c0c;
+    font-size: 15px;
+  }
+  
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 20px 20px;
+    margin: 10px 10px;
+    color: #0c0c0c;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 15px;
+    letter-spacing: 4px
+  }
+  
+  .login-box a:hover {
+    background: #f50101ce;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #f50101ce,
+                0 0 25px #f50101ce,
+                0 0 50px #f50101ce,
+                0 0 100px #f50101ce;
+  }
+
+/*PÁGINA DE CADASTRO MESTRE POKEMON*/
+ .cad-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+    padding: 75px;
+    transform: translate(-50%, -50%);
+    background: rgba(241, 236, 236, 0.987);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 300px;
+    opacity: 0.8;
+ }
+
+ .cad-box .h1-cad{
+    text-align: center;
+    font-size: x-large;
+    margin-top: auto;
+    margin-bottom: 30px;
+    margin-top: 15px;
+ }
+ .cad-box .cad {    
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin: 15px;
+    
+}
+  
+.cad-box .cad input {
+    width: 100%;
+    padding: 15px 0;
+    position: relative;
+    font-size: 16px;
+    color: #0c0c0c;
+    margin-bottom: px;
+    border: none;
+    border-bottom: 1px solid #d5d1d1;
+    outline: none;
+    background: transparent;
+  }
+.cad-box .cad select {
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: 1px solid #ccc;
+    padding: 4px;
+    margin: 10px;
+    width: 220px;
+    height: 30px;
+}
+.cad-box .cad option{
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+   
+.but input[submit] {
+    background-color: #0a14c6ce;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+    
+.but input[type="submit"]:hover {
+    background: #0a14c6ce;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0a14c6ce,
+                0 0 25px #0a14c6ce,
+                0 0 50px #0a14c6ce,
+                0 0 100px #0a14c6ce;
+}
+
+/*PÁGINA DE CADASTRO POKEMON*/
+.back-pikachu{
+  opacity: 0.5;
+ 
+}
+.cad-pok{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+    padding: 75px;
+    transform: translate(-50%, -50%);
+    background: rgba(241, 236, 236, 0.987);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 300px;
+    
+}
+
+ .cad-pok .h1-pok{
+    text-align: center;
+    font-size: x-large;
+    padding: 20px;
+    margin-top: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+ }
+
+.cad-pok .pok { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    padding-right: 5%;
+    padding-left: 5%;
+    
+}
+
+.cad-pok .pok label{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0;
+}
+
+.cad-pok .pok input {
+    width: 50%;
+    position: relative;
+    font-size: 14px;
+    color: #0c0c0c;
+    border: none;
+    border-bottom: 1px solid #d5d1d1;
+    outline: none;
+    background: transparent;
+  }
+
+input::placeholder{
+  color: #747070;
+}
+
+.pok input[type="date"]{
+  color: #747070;
+}
+
+
+.cad-pok .pok select {
+    display: inline-block;
+    background-color: #fff;
+    color: #060606;
+    font-size: 12px;
+    font-family: sans-serif;
+    border: 1px solid #747070;
+    padding: 4px;
+    width: 205px;
+    height: 30px;
+}
+.cad-pok .pok option{
+    background-color: #fff;
+    color: #0a14c6ce;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.cad-pok textarea{
+  position: relative;
+  left:0;
+  top:35%;
+  width:235px;
+  height:40px;
+}
+   
+.but{
+  text-align: center;
+}
+
+.but input[type="submit"] {
+  background-color: #0a14c6ce;
+  color: #fff;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+
+}
+    
+.but input[type="submit"]:hover {
+    background: #0a14c6ce;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0a14c6ce,
+                0 0 25px #0a14c6ce,
+                0 0 50px #0a14c6ce,
+                0 0 100px #0a14c6ce;
+}

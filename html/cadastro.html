@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <img
+      src="https://wallpapers.com/images/featured/fazqcs1tmwwte1ap.jpg"
+      alt="4 pokemons"
+      width="100%"
+    />
+    <div class="cad-box">
+      <form action="index.html" method="POST">
+        <h1 class="h1-cad">
+          CADASTRO <br />
+          MESTRE POKEMON
+        </h1>
+        <br />
+        <div class="cad">
+          <label for="nome"></label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Digite seu nome"
+          /><br /><br />
+        </div>
+
+        <div class="cad">
+          <label for="mestre"></label>
+          <input
+            type="text"
+            name="mestre"
+            id="mestre"
+            placeholder="Digite seu ID Mestre"
+          /><br /><br />
+        </div>
+
+        <div class="cad">
+          <label for="região"></label>
+          <select name="região" id="região">
+            <option value="Região">Região de Atuação</option>
+            <option value="Kanto">Kanto</option>
+            <option value="Johto">Johto</option>
+            <option value="Hoenn">Hoenn</option>
+            <option value="Sinnoh">Sinnoh</option>
+            <option value="Unova">Unova</option>
+            <option value="Kalos">Kalos</option>
+          </select>
+        </div>
+        <br /><br /><br />
+        <div class="but">
+          <label for="submit"></label>
+          <input type="submit" value="CADASTRAR" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
