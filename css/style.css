@@ -1,0 +1,59 @@
+.cad{
+    font-family: sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    height: 470px;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.891);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 30px;
+}
+
+.cad .h1{    
+    margin: 20px;
+    text-align: center;
+    font-size: x-large;
+    color: #022958f9;    
+}
+
+.cad .cad-opp{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-right: 15%;
+    padding-left: 15%;  
+}
+.cad .cad-opp input{  
+    width: 90%;
+    font-size: 12px;
+    color: #0c0c0c;
+    border: none;
+    border-bottom: 1px solid #fff7f7;
+    background: #d0cbcb;
+    margin-bottom: -10px;
+}
+
+.cad .cad-opp label{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cad .cad-opp input[type="submit"]{
+    background-color: #022958f9;
+    color: #fff;
+    width: 40%;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5%;
+    margin-left: 30%;   
+}
+
+.cad-opp input[type="checkbox"]{
+    position: relative;
+    width: 30px;
+}

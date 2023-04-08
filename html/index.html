@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oportunidade</title>
+  </head>
+  <body>
+    <div class="cad">
+      <form action="">        
+        <h1 class="h1">CADASTRO DE CLIENTE <br> OPORTUNIDADE</h1>
+        <div class="cad-opp">
+            <label for="Nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome"><br><br>
+
+            <label for="valor">Valor</label>
+            <input type="text" name="valor" id="valor" placeholder="R$"><br><br>
+
+            <label for="check">Particular</label>
+            <input type="checkbox"><br><br>            
+
+            <label for="stage">Fase</label>
+            <select name="stage" id="stage">
+                <option value=""></option>
+                <option value="Prospecting">Prospecting</option>
+                <option value="Qualification">Qualification</option>
+                <option value="Needs Analysis">Needs Analysis</option>
+                <option value="Value Proposition">Value Proposition</option>
+                <option value="Id. Decision Makers">Id. Decision Makers</option>
+                <option value="	Perception Analysis">Perception Analysis</option>
+                <option value="Proposal/Price Quote">Proposal/Price Quote</option>
+                <option value="	Negotiation/Review">Negotiation/Review</option>
+                <option value="Closed Won">Closed Won</option>
+                <option value="Closed Lost Won">Closed Lost Won</option>
+            </select>
+            <br><br>
+            <label for="type">Tipo</label>
+            <select name="type" id="type">
+            <option value=""></option>
+            <option value="Existing Customer - Upgrade">Existing Customer - Upgrade</option>
+            <option value="Existing Customer - Replacement">Existing Customer - Replacement</option>
+            <option value="Existing Customer - Downgrade">Existing Customer - Downgrade</option>
+            <option value="New Customer">New Customer</option>            
+        </select>
+        <br><br>
+        <input type="submit" name="submit">
+        </div>
+    </div>
+    </form>
+  </body>
+</html>
